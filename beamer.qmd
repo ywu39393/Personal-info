@@ -12,18 +12,13 @@ themeoptions:
 
 ## Introduction
 
-`Yifan Wu` was born on August 6th, 1998 in China.Now he is a first year 
-graduate student in the statistics department at UNL. If he can passed the 
-qualifying exam, he hope he can graduate in 2026 or 2027.
-
+`Yifan Wu` was born on August 6th, 1998 in China.Now he is a first year graduate student in the statistics department at UNL. If he can passed the qualifying exam, he hope he can graduate in 2026 or 2027.
 
 ## Favorite animal
 
 ![Caption](favanimal.png)
 
-
 ## Favorite plot
-
 
 ```{r}
 library(janitor)
@@ -49,8 +44,6 @@ plot(brushtree, uniform = TRUE);text(brushtree, use.n = TRUE, all = TRUE,
 
 ```
 
-
 ## CV
-My CV is attached
-[Click here](https://github.com/ywu39393/ywu39393.github.io/raw/main/cv.pdf)
 
+My CV is attached [Click here](https://github.com/ywu39393/ywu39393.github.io/raw/main/cv.pdf)
