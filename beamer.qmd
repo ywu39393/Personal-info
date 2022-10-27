@@ -51,5 +51,6 @@ plot(brushtree, uniform = TRUE);text(brushtree, use.n = TRUE, all = TRUE,
 
 
 ## CV
-[CV](cv.pdf)
+My CV is attached
+[Click here](https://github.com/ywu39393/ywu39393.github.io/raw/main/cv.pdf)
 
