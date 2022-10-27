@@ -1,5 +1,5 @@
 ---
-title: "HW10"
+title: "HW"
 format: revealjs
 ---
 
