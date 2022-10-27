@@ -1,0 +1,55 @@
+---
+title: "Homework 10"
+author: "Yifan"
+date: today
+institute: "University of Nebraska-Lincoln"
+theme: UNLTheme
+format: beamer
+themeoptions:
+  - left
+  - hideothersubsections
+---
+
+## Introduction
+
+`Yifan Wu` was born on August 6th, 1998 in China.Now he is a first year 
+graduate student in the statistics department at UNL. If he can passed the 
+qualifying exam, he hope he can graduate in 2026 or 2027.
+
+
+## Favorite animal
+
+![Caption](favanimal.png)
+
+
+## Favorite plot
+
+
+```{r}
+library(janitor)
+library(readxl)
+library(rpart)
+library(rpart.plot)
+
+soccer1<- read.table(
+  "aabbcc.soccer.txt", header = TRUE)
+soccer<- soccer1%>%
+  na.omit()
+
+soccer$team <- factor(soccer$team)
+
+brushtree <- rpart(team ~ mile+ sprint + shootg + shootr + jugbest + jugtot 
+                   + passg + passrate + dribble,
+                   data = soccer, control = rpart.control(minsplit = 4))
+plot(brushtree, uniform = TRUE);text(brushtree, use.n = TRUE, all = TRUE, 
+                                     cex = 0.8);
+
+
+
+
+```
+
+
+## CV
+[CV](cv.pdf)
+
